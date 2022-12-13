@@ -25,6 +25,5 @@ inputs:
     description: "Page id under which the documentation will be published"
     required: true
 runs:
-  pre: "npm install"
   using: "node16"
-  main: "index.js"
+  main: "dist/index.js"
